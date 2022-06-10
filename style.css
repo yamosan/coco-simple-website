@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+/* ヘッダー ------------------------------------------ */
+.header {
+  padding: 12px;
+  background-color: skyblue;
+  text-align: center;
+}
+
+.header > h1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 32px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* profileセクション ------------------------------------------ */
+.profile {
+  margin-top: 62px;
+}
+
+.profile > img {
+  /* インライン要素はマージンを持たない */
+  display: block;
+  margin: 0 auto;
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.profile > h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.profile > p {
+  text-align: center;
+}
+
+/* self-introductionセクション ------------------------------------------ */
+.self-introduction {
+  margin-top: 42px;
+}
+
+.self-introduction > h2 {
+  font-size: 24px;
+  margin: 12px 0;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 16px;
+  text-align: center;
+}
+
+.paragraph > p {
+  margin: 8px;
+}
+
+/* snsセクション ------------------------------------------ */
+.sns {
+  margin: 0 auto;
+  margin-top: 42px;
+  width: max-content;
+
+  display: flex;
+  gap: 12px;
+}
+
+.sns > a {
+  display: block;
+  color: skyblue;
+}

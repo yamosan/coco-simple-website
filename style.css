@@ -22,14 +22,24 @@ body {
   margin-top: 62px;
 }
 
-.profile > img {
-  /* インライン要素はマージンを持たない */
-  display: block;
+.img-container {
+  width: max-content;
   margin: 0 auto;
 
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.img-container > img {
+  display: block;
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+
+  transition: transform 0.2s;
+}
+
+.img-container > img:hover {
+  transform: scale(1.1);
 }
 
 .profile > h2 {
